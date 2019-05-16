@@ -20,7 +20,7 @@ if($content) {
             'text' => "You wrote '{$text}'"
         );
 
-        $url = "https://api.telegram.org/bot{$token}/sendMessage";
+        $url = "https://api.telegram.org/bot{766645680:AAH4Gh5pAO-oPyrAzj-pvhITz1rAgsW6GF8}/sendMessage";
         $query_string = http_build_query($parameters);
         if(!empty($query_string)) {
             $url .= '?' . $query_string;
